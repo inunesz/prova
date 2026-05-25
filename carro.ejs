@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carros</title>
+    <link rel="stylesheet" href="car.css">
+</head>
+<body>
+
+<h1>Carros Disponíveis</h1>
+
+<a href="/manage">Gerenciar</a>
+
+<div class="container">
+
+<% cars.forEach(car => { %>
+
+<div class="card">
+
+    <h2><%= car.marca %></h2>
+
+    <p><%= car.modelo %></p>
+
+    <p><%= car.ano %></p>
+
+    <p>Quantidade: <%= car.qtde_disponivel %></p>
+
+    <% if(car.qtde_disponivel > 0) { %>
+
+        <a href="/cars/sell/<%= car._id %>">
+            Vender
+        </a>
+
+    <% } else { %>
+
+        <p>Esgotado</p>
+
+    <% } %>
+
+</div>
+
+<% }) %>
+
+</div>
+
+</body>
+</html>
