@@ -1,0 +1,24 @@
+1 DIR 
+abre uma lista de pastas
+1 CD 
+abre uma especifica pasta dentro do DIR
+//////////////////////////////////////////////
+
+3 NODE(sempre vai ser o ultimo para fazer rodar o servidor)
+rodar o node tem que colocar node + arquivo .js 
+//////////////////////////////////////////////
+
+2 NPM
+para instalr o npm é 'npm install express --save''
+//////////////////////////////////////////////
+da para usar 'npm install express ejs'*************
+2 EJS
+e para instalar o ejs 'npm install ejs''
+/////////////////////////////////////////////
+
+mongodb+srv://inunesz:<felipe200718>@projeto1db.6oaosxx.mongodb.net/?appName=projeto1db esse é a string para conectar no mongoDB a partir do js
+//////////////////////////////////////////////
+
+
+
+
